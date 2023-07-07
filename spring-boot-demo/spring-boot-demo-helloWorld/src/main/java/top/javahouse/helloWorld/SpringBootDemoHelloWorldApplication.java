@@ -1,4 +1,4 @@
-package top.javahouse.demo.helloWorld;
+package top.javahouse.helloWorld;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -11,8 +11,9 @@
         <module>spring-boot-demo-helloWorld</module>
         <module>spring-boot-demo-mvc</module>
         <module>spring-boot-demo-actuator</module>
+        <module>spring-boot-demo-swagger</module>
     </modules>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
 
     <properties>

@@ -8,6 +8,12 @@ management:
   endpoint:
     shutdown:
       enabled: true
+    info:
+      enabled: true
+    env:
+      enabled: true
+    beans:
+        enabled: true
     health:
       show-details: always # 获得健康检查中所有指标的详细信
   # 设置端点暴露的哪些内容，默认["health","info"]，设置"*"代表暴露所有可访问的端点
@@ -16,4 +22,3 @@ management:
       exposure:
         include: '*' #默认值访问health,info端点  用*可以包含全部端点
       base-path: /actuator #修改访问路径 2.0之前默认是/; 2.0默认是/actuator可以通过这个属性值修改
-

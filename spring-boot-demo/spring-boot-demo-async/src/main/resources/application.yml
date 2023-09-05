@@ -1,0 +1,38 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: async
+  task:
+    execution:
+      pool:
+        # 最大线程数
+        max-size: 10
+        # 核心线程数
+        core-size: 5
+        # 存活时间
+        keep-alive: 10s
+        # 队列大小
+        queue-capacity: 100
+        # 是否允许核心线程超时
+        allow-core-thread-timeout: true
+      # 线程名称前缀
+      thread-name-prefix: async-task-
+
+
+
+# 自定义配置核心线程数
+async:
+  executor:
+    thread:
+      core_pool_size: 5
+      # 配置最大线程数
+      max_pool_size: 5
+      # 配置队列大小
+      queue_capacity: 999
+      # 配置线程最大空闲时间
+      keep_alive_seconds: 60
+      # 配置线程池中的线程的名称前缀
+      name:
+        prefix: custom-async-

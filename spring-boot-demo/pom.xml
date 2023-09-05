@@ -12,6 +12,9 @@
         <module>spring-boot-demo-mvc</module>
         <module>spring-boot-demo-actuator</module>
         <module>spring-boot-demo-swagger</module>
+        <module>spring-boot-demo-hadoop</module>
+        <module>spring-boot-demo-banner</module>
+        <module>spring-boot-demo-admin</module>
     </modules>
     <packaging>pom</packaging>
 

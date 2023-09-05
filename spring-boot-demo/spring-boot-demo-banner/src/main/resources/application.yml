@@ -1,0 +1,17 @@
+
+server:
+  port: 8012
+
+#spring:
+  #banner:
+    #ocation: classpath:myBanner.txt  #取resources下面的自定义myBanner.txt文件
+spring:
+  main:
+    banner-mode: console
+  banner:
+    charset: UTF-8
+    image:
+      margin: 0
+      height: 10
+      invert: false
+      location: classpath:myBanner.png #取resources下面的自定义myBanner.png文件

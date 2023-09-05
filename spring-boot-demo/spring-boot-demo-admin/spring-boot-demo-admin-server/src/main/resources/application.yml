@@ -1,0 +1,11 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: adminServer
+    #配置登录的账号密码
+  security:
+    user:
+      name: "admin"
+      password: "admin"

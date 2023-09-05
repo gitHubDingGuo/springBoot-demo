@@ -1,0 +1,27 @@
+
+server:
+  port: 8100
+
+spring:
+  application:
+    name: adminClents
+  ##向admin服务端注册
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:8000
+        username: admin
+        password: admin
+
+management:
+  endpoint:
+    health:
+      # 端点健康情况，默认值"never"，设置为"always"可以显示硬盘使用情况和线程情况
+      show-details: always
+  endpoints:
+    web:
+      base-path: /actuator
+      # 设置端点暴露的哪些内容，默认["health","info"]，设置"*"代表暴露所有可访问的端点
+      exposure:
+        include: '*'
+    enabled-by-default: true

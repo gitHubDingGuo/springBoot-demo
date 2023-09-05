@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<!--  设置HDFS文件副本数-->
+ <property>
+	<name>dfs.replication</name>
+	<value>1</value>
+ </property>
+
+<!--  设置HDFS元数据文件存放路径-->
+ <property>
+	<name>dfs.namenode.name.dir</name>
+	<value>file:/usr/local/hadoop/hadoop-3.3.4/tmp/dfs/name</value>
+ </property>
+
+<!--  设置HDFS数据文件存放路径-->
+ <property>
+	<name>dfs.datanode.data.dir</name>
+	<value>file:/usr/local/hadoop/hadoop-3.3.4/tmp/dfs/data</value>
+ </property>
+
+<!--  namenode webUI监听的地址和端口
+<property>
+        <name>dfs.namenode.http-address</name>
+        <value>localhost:50070</value>
+</property>
+-->
+<!--  secondary namenode webUI监听的地址和端口
+<property>
+        <name>dfs.namenode.secondary.http-address</name>
+        <value>localhost:50090</value>
+</property>
+-->
+<!--  是否允许在namenode和datanode中启用WebHDFS (REST API)
+<property>
+        <name>dfs.webhdfs.enabled</name>
+        <value>true</value>
+</property>
+-->
+<!--  client连接datanode时，是否应该使用datanode的主机名
+<property>
+        <name>dfs.client.use.datanode.hostname</name>
+        <value>true</value>
+</property>
+-->
+<!--  设置其他用户操作时会提醒没有权限
+<property>
+        <name>dfs.permissions</name>
+        <value>false</value>
+</property>
+-->
+</configuration>

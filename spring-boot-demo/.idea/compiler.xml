@@ -2,12 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-demo-swagger" />
         <module name="spring-boot-demo-helloWorld" />
+        <module name="spring-boot-demo-admin-client" />
+        <module name="spring-boot-demo-admin-server" />
+        <module name="spring-boot-demo-banner" />
+        <module name="spring-boot-demo-actuator" />
+        <module name="spring-boot-demo-mvc" />
+        <module name="spring-boot-demo-hadoop" />
+        <module name="spring-boot-demo-admin-clients" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pring-boot-demo-admin-client" target="1.5" />
+      <module name="spring-boot-demo-admin-client" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,17 @@
+package top.javahouse.ehcache;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/*
+ * @author:javahouse.top
+ * @Description:
+ * @Date: 2023/9/7 10:46
+ */
+@SpringBootApplication
+public class SpringBootDemoEhcacheApplication {
+    public static void main(String[] args) {
+        SpringApplication application = new SpringApplication(SpringBootDemoEhcacheApplication.class);
+        application.run(args);
+    }
+}

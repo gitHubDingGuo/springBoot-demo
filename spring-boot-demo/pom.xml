@@ -16,6 +16,8 @@
         <module>spring-boot-demo-banner</module>
         <module>spring-boot-demo-admin</module>
         <module>spring-boot-demo-async</module>
+        <module>spring-boot-demo-cache-ehcache</module>
+        <module>spring-boot-demo-test</module>
     </modules>
     <packaging>pom</packaging>
 

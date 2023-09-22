@@ -1,4 +1,4 @@
-package top.javahouse.test;
+package top.javahouse.ehcache;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,12 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /*
  * @author:javahouse.top
  * @Description:
- * @Date: 2023/9/7 17:06
+ * @Date: 2023/9/7 10:46
  */
 @SpringBootApplication
-public class SpringBootDemoTestApplication {
+public class SpringBootDemoCacheRedisApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoTestApplication.class, args);
+        SpringApplication application = new SpringApplication(SpringBootDemoCacheRedisApplication.class);
+        application.run(args);
     }
-
 }

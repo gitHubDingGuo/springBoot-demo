@@ -345,6 +345,8 @@ public class CacheConfig {
 
 }
 ```
+
+
 ##参考
 - Ehcache 官网：http://www.ehcache.org/documentation/
 - Spring  官网 https://docs.spring.io/spring-boot/docs/2.7.1/reference/htmlsingle/#io.caching

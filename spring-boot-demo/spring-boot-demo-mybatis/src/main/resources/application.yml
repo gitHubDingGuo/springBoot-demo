@@ -1,0 +1,25 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: mybatis
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver #如果mysql版本低但引入的连接jar包高的话要加一个cj
+    url: jdbc:mysql://localhost:3306/my_project?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: 12580
+
+mybatis:
+  #mapper xml 扫描路径
+  mapperLocations:  classpath*:/mapper/**Mapper.xml,classpath*:/mapper/**/**Mapper.xml
+  #配置文件
+  config-location: classpath:mybatis-config.xml
+    #开启驼峰自动映射
+  map-underscore-to-camel-case: true
+
+
+#开启日志
+logging:
+  level:
+    org.apache.ibatis: INFO

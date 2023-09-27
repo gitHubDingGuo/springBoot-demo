@@ -21,6 +21,7 @@
         <module>spring-boot-demo-cache-redis</module>
         <module>spring-boot-demo-docker</module>
         <module>spring-boot-demo-logback</module>
+        <module>spring-boot-demo-mybatis</module>
     </modules>
     <packaging>pom</packaging>
 

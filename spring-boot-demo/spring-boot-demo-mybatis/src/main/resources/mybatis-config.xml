@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--
+    创建一个全局配置文件，这里面是对MyBatis 的核心行为的控制，比如mybatis-config.xml。 然後從yml那里引入
+    https://blog.csdn.net/weixin_30718391/article/details/95726928?spm=1001.2101.3001.6650.4&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4-95726928-blog-109553684.pc_relevant_multi_platform_featuressortv2removedup&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-4-95726928-blog-109553684.pc_relevant_multi_platform_featuressortv2removedup&utm_relevant_index=8
+    -->
+    <settings>
+        <setting name="jdbcTypeForNull" value="NULL"/>
+        <setting name="safeRowBoundsEnabled" value="false"/>
+        <setting name="safeResultHandlerEnabled" value="false"/>
+        <!-- 指定 MyBatis 所用日志的具体实现，未指定时将自动查找。
+        SLF4J | LOG4J | LOG4J2 | JDK_LOGGING | COMMONS_LOGGING | STDOUT_LOGGING | NO_LOGGING -->
+        <setting name="logImpl" value="SLF4J"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <databaseIdProvider type="DB_VENDOR">
+        <property name="SQL Server" value="SQLServer" />
+        <property name="MySQL" value="MySQL" />
+        <property name="DB2" value="DB2" />
+        <property name="Oracle" value="Oracle" />
+    </databaseIdProvider>
+</configuration>

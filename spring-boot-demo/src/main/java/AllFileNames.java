@@ -8,13 +8,13 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 public class AllFileNames {
 
-    private static String filePath="D://公司项目//springBoot//spring-boot-demo//spring-boot-demo-logback//README.md";
+    private static String filePath="D://公司项目//springBoot//spring-boot-demo//spring-boot-demo-mybatis//README.md";
 
 
 
     public static void main(String[] args) throws IOException {
 
-        File md=new File("D://公司项目//springBoot//spring-boot-demo//spring-boot-demo-logback//README.md");
+        File md=new File(filePath);
         md.createNewFile();
 
         BufferedWriter out = null;
@@ -25,8 +25,8 @@ public class AllFileNames {
       //  out.write("> 此 demo 主要演示了 Spring Boot 如何使用logback"+"\n"+"\n"+"\n");
 
         Path path = Paths.get(filePath);
-        String content="# spring-boot-demo-logback"+"\n"+"\n";
-        String content1="> 此 demo 主要演示了 Spring Boot 如何使用logback"+"\n"+"\n";
+        String content="# spring-boot-demo-mybatis"+"\n"+"\n";
+        String content1="> 此 demo 主要演示了 Spring Boot 如何使用mybatis"+"\n"+"\n";
 
         Files.write(path, content.getBytes(), StandardOpenOption.APPEND);
         Files.write(path, content1.getBytes(), StandardOpenOption.APPEND);
@@ -38,7 +38,7 @@ public class AllFileNames {
 
          */
         //1、根据路径创建一个File对象
-        File file = new File("D:\\公司项目\\springBoot\\spring-boot-demo\\spring-boot-demo-logback\\src\\main");
+        File file = new File("D:\\公司项目\\springBoot\\spring-boot-demo\\spring-boot-demo-mybatis\\src\\main");
         //2、调用fileTest()方法
         fileTest(file, "",path);
     }

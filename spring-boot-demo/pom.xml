@@ -22,6 +22,9 @@
         <module>spring-boot-demo-docker</module>
         <module>spring-boot-demo-logback</module>
         <module>spring-boot-demo-mybatis</module>
+        <module>spring-boot-demo-xxljob</module>
+        <module>spring-boot-demo-scheduled</module>
+        <module>spring-boot-demo-email</module>
     </modules>
     <packaging>pom</packaging>
 

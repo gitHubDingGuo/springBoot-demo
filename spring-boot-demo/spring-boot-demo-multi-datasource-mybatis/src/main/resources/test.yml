@@ -1,0 +1,82 @@
+bdp:
+  datasource:
+    db:
+      url: jdbc:mysql://127.0.0.1:3306/my_project?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+      username: root
+      password: 12580
+    db1:
+      url: jdbc:mysql://127.0.0.1:3306/my_project?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+      username: root
+      password: 12580
+    db2:
+      url: jdbc:mysql://127.0.0.1:3306/my_project_two?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+      username: root
+      password: 12580
+
+spring:
+  datasource:
+    dynamic:
+      datasource:
+        master:
+          username: root
+          password: 12580
+          url: jdbc:mysql://127.0.0.1:3306/my_project?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+          driver-class-name: com.mysql.cj.jdbc.Driver
+        slave:
+          username: root
+          password: 12580
+          url: jdbc:mysql://127.0.0.1:3306/my_project_two?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+          driver-class-name: com.mysql.cj.jdbc.Driver
+      mp-enabled: true
+
+---
+spring:
+  datasource:
+    druid:
+      default:
+        url: ${bdp.datasource.db.url}
+        username: ${bdp.datasource.db.username}
+        password: ${bdp.datasource.db.password}
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      ds1:
+        url: ${bdp.datasource.db1.url}
+        username: ${bdp.datasource.db1.username}
+        password: ${bdp.datasource.db1.password}
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+      ds2:
+        url: ${bdp.datasource.db2.url}
+        username: ${bdp.datasource.db2.username}
+        password: ${bdp.datasource.db2.password}
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+      filter:
+        stat:
+          log-slow-sql: true
+          merge-sql: false
+          slow-sql-millis: 1000
+        wall:
+          config:
+            multi-statement-allow: true
+      initial-size: 10
+      max-active: 100
+      max-pool-prepared-statement-per-connection-size: 20
+      max-wait: 6000
+      min-evictable-idle-time-millis: 300000
+      min-idle: 10
+      pool-prepared-statements: true
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: true
+      time-between-eviction-runs-millis: 60000
+
+
+logging:
+  level:
+    top.javahouse.multiDatasource: debug
+
+server:
+  port: 8081

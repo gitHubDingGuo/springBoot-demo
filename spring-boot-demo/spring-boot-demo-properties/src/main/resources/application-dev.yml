@@ -1,0 +1,19 @@
+application:
+  name: dev环境
+  version: dev1.0环境
+
+developer:
+  name: dev环境
+  website: www.dev.com
+  qq: dev.qq.com
+  phone-number: 123456789
+spring:
+  rabbitmq:
+    listener:
+      direct:
+        idle-event-interval:
+
+
+myproperty:
+  data: 12580
+  openFlag: false

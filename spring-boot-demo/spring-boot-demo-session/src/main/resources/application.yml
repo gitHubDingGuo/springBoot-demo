@@ -1,0 +1,29 @@
+server:
+  port: 8081
+  # servlet:
+    # session:
+      # cookie:
+        # http-only: true # 是否对会话 cookie 使用 "HttpOnly"cookie。 默认值是true
+       # secure: false   # 是否总是将会话 cookie 标记为安全。 默认值是false
+
+  # HttpOnly 是包含在 Set-Cookie HTTP 响应标头中的附加标志。可以防范 XSS攻击 1
+  # Secure 属性是应用程序服务器在 HTTP 响应中向用户发送新 cookie 时可以设置的一个选项。安全属性的目的是防止
+        # cookie 因明文传输 cookie 而被未授权方观察到。2
+  # 原文链接：https://blog.csdn.net/sinat_34524528/article/details/117678563
+
+spring:
+  application:
+    name: session
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    # password: 123456
+    lettuce:
+      pool:
+        min-idle: 0
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+    connect-timeout: 30000ms
+

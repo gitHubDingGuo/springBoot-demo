@@ -9,16 +9,58 @@
     <file url="file://$PROJECT_DIR$/spring-boot-demo-admin/spring-boot-demo-admin-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-async/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-banner/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-banner/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-cache-ehcache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-cache-ehcache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-cache-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-cache-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-docker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-docker/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-email/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-email/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-filter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-freemark/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-freemark/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-hadoop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-hadoop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-helloWorld/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-helloWorld/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-logback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-logback/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-multi-datasource-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-multi-datasource-mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-mvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-mvc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-mybatis-plus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-page/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-page/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-properties/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-properties/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-scheduled/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-scheduled/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-session/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-session/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-swagger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-upload/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-xxljob/spring-boot-demo-xxljob-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-xxljob/spring-boot-demo-xxljob-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-xxljob/spring-boot-demo-xxljob-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-xxljob/spring-boot-demo-xxljob-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-xxljob/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-demo-xxljob/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

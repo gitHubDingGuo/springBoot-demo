@@ -8,10 +8,12 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 public class AllFileNames {
 
-    private static String filePath="D://公司项目//springBoot//spring-boot-demo//spring-boot-demo-email//README.md";
-    private static String content="# spring-boot-demo-email"+"\n"+"\n";
-    private static String content1="> 此 demo 主要演示了 Spring Boot 如何使用 email"+"\n"+"\n";
-    private static String projectPath="D:\\公司项目\\springBoot\\spring-boot-demo\\spring-boot-demo-email\\src\\main";
+    private static String projectName="spring-boot-demo-redis";
+
+    private static String filePath="D://公司项目//springBoot//spring-boot-demo//"+projectName+"//README.md";
+    private static String content="# "+projectName+"\n"+"\n";
+    private static String content1="> 此 demo 主要演示了 Spring Boot 如何使用 Redis"+"\n"+"\n";
+    private static String projectPath="D:\\公司项目\\springBoot\\spring-boot-demo\\"+projectName+"\\src\\main";
 
     public static void main(String[] args) throws IOException {
 

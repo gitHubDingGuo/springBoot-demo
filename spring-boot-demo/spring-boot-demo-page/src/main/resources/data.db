@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `book`;
+CREATE TABLE `book`  (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(128) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `author` varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+INSERT INTO `book` VALUES (1, '三国演义', '罗贯中');
+INSERT INTO `book` VALUES (2, '水浒传', '施耐庵');

@@ -1,0 +1,17 @@
+server:
+  port: 8000
+
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com #概述下面可以看到外网的endpoint
+    keyId: LTAI4FoRURY1PJ4rL35avnBZ12
+    keySecret: 8hxMpnFHxbvqHteo0GtM2QYDsQcEsS12
+    bucketName: bucket
+
+spring:
+  application:
+    name: upload
+
+
+knife4j:
+  enable: true # 开启增强配置
